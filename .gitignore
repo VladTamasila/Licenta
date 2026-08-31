@@ -1,0 +1,22 @@
+# ─── dependinte (se instaleaza cu npm install) ───
+node_modules/
+
+# ─── secrete ───
+.env
+*.env
+!.env.example
+
+# ─── build / cache ───
+**/build/
+.gradle/
+.kotlin/
+.idea/
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ─── log-uri si temporare ───
+*.log
+.DS_Store
